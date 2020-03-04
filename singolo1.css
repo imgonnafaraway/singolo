@@ -24,13 +24,16 @@ html, body {
 }
 
 header {
-    width: 1020px;
+    
     height: 89px;
     margin: 0 auto;
     border-bottom: 6px solid #323746;
     background-color: #2d303a;
 }
-
+.head {
+    width: 1020px;
+    margin: 0 auto;
+}
 h1 {
     padding-top: 41px;
     margin: 0 auto;
@@ -96,11 +99,15 @@ a:hover {
 
 
 .slider {
-    width: 1020px;
     height: 594px;
     margin: 0 auto;
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
+}
+
+.slider_img {
+    width: 1020px;
+    margin: 0 auto;
 }
 
 
@@ -172,11 +179,14 @@ a:hover {
 
 
 .service {
-    width: 1020px;
     height: 495px;
     margin: 0 auto;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
+}
+.service-block {
+    width: 1020px;
+    margin: 0 auto;
 }
 p {
     margin: 0;
